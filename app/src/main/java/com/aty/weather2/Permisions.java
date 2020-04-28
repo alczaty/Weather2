@@ -14,6 +14,7 @@ public class Permisions {
             return false;
         }
         return true;
+
     }
     public static void requestPermissions(MainActivity itsObject){
         ActivityCompat.requestPermissions(itsObject, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, PERMISSION_ID);
